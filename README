@@ -1,11 +1,11 @@
-Ham-APRS-LastPacket 0.01
+Ham-APRS-LastPacket 0.02
 
 NAME
     Ham::APRS::LastPacket - A simple interface to retrieve the most recent
     packet data for a station from APRS-IS.
 
 VERSION
-    Version 0.01
+    Version 0.02
 
 INSTALLATION
     To install this module, run the following commands:

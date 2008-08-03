@@ -19,7 +19,7 @@ use XML::Simple;
 use LWP::UserAgent;
 use vars qw($VERSION);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $aprs_url = "http://aprsearch.net/xml/1.3/report.cgi?call=";
 my $site_name = 'aprsearch.net/xml';
@@ -119,7 +119,7 @@ Ham::APRS::LastPacket - A simple interface to retrieve the most recent packet da
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 SYNOPSIS
 
@@ -250,6 +250,8 @@ APRS-IS is the Internet-based network which inter-connects various APRS radio ne
 =item
 
 APRS was created by, and is a trademark of, Bob Bruninga WB4APR.  See http://aprs.org
+
+=back
 
 =head1 AUTHOR
 
