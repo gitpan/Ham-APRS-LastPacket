@@ -7,9 +7,10 @@ WriteMakefile(
     AUTHOR              => 'Brad McConahay N8QQ <brad@n8qq.com>',
     VERSION_FROM        => 'lib/Ham/APRS/LastPacket.pm',
     ABSTRACT_FROM       => 'lib/Ham/APRS/LastPacket.pm',
+    LICENSE             => 'artistic2',
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More' => 0,
+		'Test::More' => 0,
 		'XML::Simple' => 0,
 		'LWP::UserAgent' => 0,
     },
